@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Encriptador Lavs999 OracleOne</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/img/Logo.png" alt="logo alura" class="class" />
+      <p class="titulo">Encripta un mensaje</p>
+    </header>
+    <div id="principal">
+      <div class="seccion_primaria">
+        <div class="contenedor_vacio"></div>
+        <textarea
+          id="cajatexto"
+          placeholder="Ingresa tu texto aqui"
+          class="caja_texto"
+        ></textarea>
+        <div class="footer_primario">
+          <div class="base_condicion">
+            <h1>Solo letras minúscilas y sin acentos</h1>
+          </div>
+          <div class="contenedor_botones">
+            <input
+              id="encriptador"
+              class="boton_encriptador"
+              type="button"
+              value="Encriptar"
+            />
+            <input
+              id="desencriptador"
+              class="boton_desencriptador"
+              type="button"
+              value="Desencriptar"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="seccion_secundaria">
+        <div id="muneco" class="contenedor_muneco">
+          <img src="assets/img/Muneco.png" alt="muneco" />
+        </div>
+        <div class="contenedor_parrafo">
+          <textarea
+            id="mensajefinal"
+            placeholder="Ningún mensaje fue encontrado"
+            class="mensaje_final"
+          ></textarea>
+          <p id="informacion" class="parrafo_infomacion">
+            Ingresa el texto que deses encriptar o <br />
+            desencriptar.
+          </p>
+        </div>
+        <div class="contenedor_copiar">
+          <input
+            id="copiar"
+            class="boton_copiar escondido"
+            type="button"
+            value="Copiar"
+          />
+        </div>
+        <div class="contenedor_resultado">
+          <p class="parrafo_resultado"></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <nav class="navegacion">
+        <p class="creador">Creado por: Armando Solis </p>
+        <a href="https://github.com/Lavs999" target="_blank">
+          <img class="link" src="assets/img/github.png" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/luis-armando-virgen-solis-a00ab9203/" target="_blank">
+          <img class="link" src="assets/img/LinkedIn.png" alt="linkedin" />
+        </a>
+      </nav>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
